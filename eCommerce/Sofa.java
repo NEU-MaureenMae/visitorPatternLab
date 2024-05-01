@@ -1,3 +1,5 @@
+package eCommerce;
+
 public class Sofa implements Furniture {
 
     private final Size size;

@@ -1,8 +1,10 @@
-public class Table implements Furniture {
+package eCommerce;
+
+public class Chair implements Furniture {
 
     private final Size size;
 
-    public Table(Size size) {
+    public Chair(Size size) {
         this.size = size;
     }
 
@@ -13,6 +15,6 @@ public class Table implements Furniture {
 
     @Override
     public double accept(ShippingCostVisitor visitor) {
-        return visitor.visitTable(this); // Delegate cost calculation to visitor
+        return visitor.visitChair(this); // Delegate cost calculation to visitor
     }
 }

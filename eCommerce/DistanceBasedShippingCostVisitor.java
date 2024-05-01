@@ -1,3 +1,5 @@
+package eCommerce;
+
 import java.util.*;
 
 public class DistanceBasedShippingCostVisitor implements ShippingCostVisitor {

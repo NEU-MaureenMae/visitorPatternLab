@@ -1,3 +1,5 @@
+package eCommerce;
+
 public interface Furniture {
 
     enum Size { SMALL, MEDIUM, LARGE };
